@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineer | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Animated Effects -->
+    <div class="bg-glow"></div>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">DEVSec<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#lab-challenges">Labs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="section">
+        <div class="container hero">
+            <div class="hero-content">
+                <p class="greeting">Hi, I am</p>
+                <h1 class="name">A <span>Cybersecurity & Software Engineer</span></h1>
+                <p class="tagline">I build secure, scalable applications and thrive on solving complex technical challenges. Bridging the gap between software development and offensive security.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="img-wrapper">
+                    <!-- Replace with real picture -->
+                    <img src="assets/profile_photo_1776097165377.png" alt="Profile Photo">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="resume" class="section">
+        <div class="container">
+            <h2 class="section-title">My <span>Resume</span></h2>
+            <div class="resume-grid">
+                
+                <div class="resume-column">
+                    <h3><i class="fas fa-graduation-cap"></i> Academic Background</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="date">Present</span>
+                            <h4>Cybersecurity Training</h4>
+                            <p class="institution">CyberShujaa</p>
+                            <p>Currently undergoing rigorous cybersecurity training focused on offensive and defensive security practices.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="date">Present</span>
+                            <h4>B.Sc. in Computer Science</h4>
+                            <p class="institution">Zetech University</p>
+                            <p>Building a strong foundation in computer science and software development.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="resume-column">
+                    <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="date">2024</span>
+                            <h4>Cybersecurity Training Certificate</h4>
+                            <p class="institution">CyberShujaa</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="date">Pending</span>
+                            <h4>Relevant Industry Certification (Placeholder)</h4>
+                            <p class="institution">Security Vendor</p>
+                        </div>
+                    </div>
+
+                    <h3><i class="fas fa-laptop-code"></i> Skills</h3>
+                    <div class="skills-container">
+                        <div class="skill-tag">Python</div>
+                        <div class="skill-tag">JavaScript/TypeScript</div>
+                        <div class="skill-tag">React & Next.js</div>
+                        <div class="skill-tag">Node.js</div>
+                        <div class="skill-tag">Burp Suite</div>
+                        <div class="skill-tag">Metasploit</div>
+                        <div class="skill-tag">AWS</div>
+                        <div class="skill-tag">Docker</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Flagship <span>Projects</span></h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/project_thumbnail_1776097198180.png" alt="Project 1">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-sm"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="btn-sm"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Secure SaaS Dashboard</h3>
+                        <p>A full-stack operational dashboard with real-time analytics. Implements advanced Role-Based Access Control and end-to-end encryption.</p>
+                        <div class="tech-stack">
+                            <span>Next.js</span>
+                            <span>Prisma</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/project_thumbnail_1776097198180.png" alt="Project 2">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-sm"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="btn-sm"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Vulnerability Scanner CLI</h3>
+                        <p>A Python-based CLI tool that automates Nmap scans and checks against the CVE database to generate comprehensive PDF reports.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Nmap API</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/project_thumbnail_1776097198180.png" alt="Project 3">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-sm"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="btn-sm"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Microservices</h3>
+                        <p>A microservices architecture for an e-commerce platform incorporating Docker, Kubernetes, and an automated CI/CD pipeline.</p>
+                        <div class="tech-stack">
+                            <span>Node.js</span>
+                            <span>Docker</span>
+                            <span>Kubernetes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="lab-challenges" class="section">
+        <div class="container">
+            <h2 class="section-title">Lab <span>Challenges</span></h2>
+            <p class="section-subtitle">Detailed writeups exploring penetration testing methodologies and CTF environments.</p>
+            
+            <div class="challenges-grid">
+                <!-- Lab 1 -->
+                <div class="challenge-card">
+                    <div class="challenge-img">
+                        <img src="assets/lab_thumbnail_1776097225336.png" alt="Lab Challenge Screenshot">
+                    </div>
+                    <div class="challenge-content">
+                        <h3>Active Directory Penetration Test</h3>
+                        
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-crosshairs"></i> Problem Statement</h4>
+                            <p>Compromise a simulated corporate Active Directory environment to demonstrate escalation paths from a standard user to Domain Admin.</p>
+                        </div>
+                        
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-route"></i> Approach</h4>
+                            <p>Began with initial enumeration using Nmap. Captured user hashes via AS-REP Roasting. Escalated privileges utilizing BloodHound to chart a path to the Domain Controller via a misconfigured ACL.</p>
+                        </div>
+
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-tools"></i> Tools Used</h4>
+                            <div class="tools-tags">
+                                <span>Nmap</span>
+                                <span>Impacket</span>
+                                <span>BloodHound</span>
+                                <span>CrackMapExec</span>
+                            </div>
+                        </div>
+
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-lightbulb"></i> Key Lessons</h4>
+                            <p>Gained practical experience mapping Active Directory trusts. Learned the critical importance of restricting service accounts and managing ACL configurations properly.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lab 2 -->
+                <div class="challenge-card">
+                    <div class="challenge-img">
+                        <img src="assets/lab_thumbnail_1776097225336.png" alt="Lab Challenge Screenshot">
+                    </div>
+                    <div class="challenge-content">
+                        <h3>Advanced SQL Injection Bypass</h3>
+                        
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-crosshairs"></i> Problem Statement</h4>
+                            <p>Exploit an e-commerce search field protected by a Web Application Firewall (WAF) to extract underlying customer data.</p>
+                        </div>
+                        
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-route"></i> Approach</h4>
+                            <p>Used Burp Suite to intercept traffic. Discovered the WAF was filtering standard UNION statements. Bypassed the filter by utilizing Unicode encoding and time-based blind SQL injection techniques.</p>
+                        </div>
+
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-tools"></i> Tools Used</h4>
+                            <div class="tools-tags">
+                                <span>Burp Suite Pro</span>
+                                <span>SQLMap</span>
+                            </div>
+                        </div>
+
+                        <div class="challenge-section">
+                            <h4><i class="fas fa-lightbulb"></i> Key Lessons</h4>
+                            <p>Understood how encoding variations can evade signature-based WAFs. Reinforced the necessity of parameterized queries on the backend to prevent SQL injection entirely.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer section">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <h2>Let's <span>Connect</span></h2>
+                <p>I am currently available for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                <div class="contact-methods">
+                    <a href="mailto:hello@example.com" class="contact-link"><i class="fas fa-envelope"></i> hello@yourdomain.com</a>
+                    <a href="tel:+15551234567" class="contact-link"><i class="fas fa-phone-alt"></i> +1 (555) 123-4567</a>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Developed by You. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
